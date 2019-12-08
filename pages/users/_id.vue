@@ -1,18 +1,16 @@
 <template>
-<div>
-  <h1>{{ mag }}</h1>
-  <p>
-    <id:>{{ this.$route.params.id }}</id:>
-  </p>
-</div>
+  <section>
+    <h1>{{ message }}</h1>
+    <p>id: {{ this.$route.params.id }}</p>
+  </section>
 </template>
 
 <script>
-export default {
-  data: function() {
-    return {
-      msg: 'users/_id.vue'
+  export default {
+    data: function() {
+      return {
+        message: '/users/_id.vueを表示中'
+      }
     }
   }
-}
 </script>
