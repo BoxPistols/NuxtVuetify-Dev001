@@ -16,7 +16,7 @@
         <v-spacer />
 
         <!-- <NuxtLink to="layouts/error">AAA</NuxtLink> -->
-        <router-link to="layouts/error">RRR</router-link>
+        <router-link to="users">Users</router-link>
 
         <v-btn color="primary" nuxt to="/inspire">
           Continue
