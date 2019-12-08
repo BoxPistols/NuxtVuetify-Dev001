@@ -6,6 +6,10 @@
         alt="Vuetify.js"
         class="mb-5"
       >
+      <v-btn color="primary" nuxt to="/">
+        Go Home
+      </v-btn>
+
       <blockquote class="blockquote">
         &#8220;First, solve the problem. Then, write the code.&#8221;
         <footer>
